@@ -1,0 +1,68 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+
+# ------------------------
+# Virtual Environment
+# ------------------------
+venv/
+.env/
+env/
+.venv/
+ENV/
+
+# ------------------------
+# IDE / Editor
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------
+# OS Files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs & Caches
+# ------------------------
+*.log
+logs/
+.cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ------------------------
+# Environment Variables
+# ------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# ------------------------
+# Jupyter / Colab
+# ------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------------------------
+# FastAPI / Deployment
+# ------------------------
+__pycache__/
+*.db
+*.sqlite3
+*.sqlite
+static/
+uploads/
